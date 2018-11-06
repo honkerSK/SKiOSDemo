@@ -1,2 +1,9 @@
 # SKCommodityVCFramework
-仿国美商品分类界面
+商品分类界面
+
+
+
+
+
+<img src="https://github.com/honkerSK/SKiOSDemo/blob/master/6-SKCommodityVCFramework/SKCommodityVC.gif" width="500" alt="RuntimeDictToModelDemo"></img>
+
