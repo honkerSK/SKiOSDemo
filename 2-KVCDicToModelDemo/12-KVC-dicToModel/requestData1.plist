@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<string>11111</string>
+		<key>imgUrlStr</key>
+		<string>https://upload-images.jianshu.io/upload_images/126164-39a00417f47551ac.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240</string>
+		<key>nameStr</key>
+		<string>指环王</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>22222</string>
+		<key>imgUrlStr</key>
+		<string>https://upload-images.jianshu.io/upload_images/126164-fe496f363440ddeb.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240</string>
+		<key>nameStr</key>
+		<string>冰与火之歌</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>11111</string>
+		<key>imgUrlStr</key>
+		<string>https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1537438673&amp;di=3334d23c67c4150a8411dbea6c5b975f&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2Fcbu01.alicdn.com%2Fimg%2Fibank%2F2015%2F761%2F700%2F2503007167_1330985815.search.jpg</string>
+		<key>nameStr</key>
+		<string>指环王</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>22222</string>
+		<key>imgUrlStr</key>
+		<string>https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1536843778106&amp;di=9c6fd0e12ffeee2962cf68f0ce69983e&amp;imgtype=0&amp;src=http%3A%2F%2Fi0.itc.cn%2F20140429%2F2d89_88d29539_57c8_8d7f_d58b_78384413fcc0_2.jpg</string>
+		<key>nameStr</key>
+		<string>冰与火之歌</string>
+	</dict>
+</array>
+</plist>

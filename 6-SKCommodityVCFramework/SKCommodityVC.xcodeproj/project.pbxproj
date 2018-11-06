@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A014AE0FF87563269BB435A /* libPods-SKCommodityVC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 220E7A3C120F2115ADEFDD43 /* libPods-SKCommodityVC.a */; };
+		E1CAE336215CDA850069F347 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CAE335215CDA850069F347 /* AppDelegate.m */; };
+		E1CAE33C215CDA850069F347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CAE33A215CDA850069F347 /* Main.storyboard */; };
+		E1CAE33E215CDA860069F347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1CAE33D215CDA860069F347 /* Assets.xcassets */; };
+		E1CAE341215CDA860069F347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CAE33F215CDA860069F347 /* LaunchScreen.storyboard */; };
+		E1CAE344215CDA860069F347 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CAE343215CDA860069F347 /* main.m */; };
+		E1CAE350215CDB0B0069F347 /* SKCommodityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CAE34F215CDB0B0069F347 /* SKCommodityViewController.m */; };
+		E1CAE353215CE0A00069F347 /* SKClassGoodsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CAE352215CE0A00069F347 /* SKClassGoodsItem.m */; };
+		E1CAE36C215CE1FE0069F347 /* ClassifyTitles.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1CAE36A215CE1FE0069F347 /* ClassifyTitles.plist */; };
+		E1CAE36D215CE1FE0069F347 /* ClassiftyGoods01.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1CAE36B215CE1FE0069F347 /* ClassiftyGoods01.plist */; };
+		E1CAE370215CE4CE0069F347 /* SKClassMianItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CAE36F215CE4CE0069F347 /* SKClassMianItem.m */; };
+		E1CAE373215CE51E0069F347 /* SKClassSubItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CAE372215CE51E0069F347 /* SKClassSubItem.m */; };
+		E1CAE376215CE7830069F347 /* SKClassCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CAE375215CE7830069F347 /* SKClassCategoryCell.m */; };
+		E1CAE37D215CF7200069F347 /* SKGoodsSortCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CAE37C215CF7200069F347 /* SKGoodsSortCell.m */; };
+		E1CAE380215CF7A00069F347 /* SKBrandSortCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CAE37F215CF7A00069F347 /* SKBrandSortCell.m */; };
+		E1CAE39C215D317C0069F347 /* UIView+SKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CAE39B215D317C0069F347 /* UIView+SKExtension.m */; };
+		E1CAE3AA215D46BE0069F347 /* SKBrandsSortHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CAE3A9215D46BE0069F347 /* SKBrandsSortHeadView.m */; };
+		E1CAE3AD215D47C00069F347 /* SKConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CAE3AC215D47C00069F347 /* SKConsts.m */; };
+		E1CAE3B0215D4C990069F347 /* ClassiftyGoods02.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1CAE3AE215D4C990069F347 /* ClassiftyGoods02.plist */; };
+		E1CAE3B1215D4C990069F347 /* ClassiftyGoods03.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1CAE3AF215D4C990069F347 /* ClassiftyGoods03.plist */; };
+		E1D2805621918D79005B4919 /* SKCommodityNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D2805521918D79005B4919 /* SKCommodityNavController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		220E7A3C120F2115ADEFDD43 /* libPods-SKCommodityVC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKCommodityVC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CAE331215CDA850069F347 /* SKCommodityVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKCommodityVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CAE334215CDA850069F347 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1CAE335215CDA850069F347 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1CAE33B215CDA850069F347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1CAE33D215CDA860069F347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1CAE340215CDA860069F347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1CAE342215CDA860069F347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CAE343215CDA860069F347 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1CAE34E215CDB0B0069F347 /* SKCommodityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKCommodityViewController.h; sourceTree = "<group>"; };
+		E1CAE34F215CDB0B0069F347 /* SKCommodityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKCommodityViewController.m; sourceTree = "<group>"; };
+		E1CAE351215CE0A00069F347 /* SKClassGoodsItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKClassGoodsItem.h; sourceTree = "<group>"; };
+		E1CAE352215CE0A00069F347 /* SKClassGoodsItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKClassGoodsItem.m; sourceTree = "<group>"; };
+		E1CAE36A215CE1FE0069F347 /* ClassifyTitles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassifyTitles.plist; sourceTree = "<group>"; };
+		E1CAE36B215CE1FE0069F347 /* ClassiftyGoods01.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassiftyGoods01.plist; sourceTree = "<group>"; };
+		E1CAE36E215CE4CE0069F347 /* SKClassMianItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKClassMianItem.h; sourceTree = "<group>"; };
+		E1CAE36F215CE4CE0069F347 /* SKClassMianItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKClassMianItem.m; sourceTree = "<group>"; };
+		E1CAE371215CE51E0069F347 /* SKClassSubItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKClassSubItem.h; sourceTree = "<group>"; };
+		E1CAE372215CE51E0069F347 /* SKClassSubItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKClassSubItem.m; sourceTree = "<group>"; };
+		E1CAE374215CE7830069F347 /* SKClassCategoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKClassCategoryCell.h; sourceTree = "<group>"; };
+		E1CAE375215CE7830069F347 /* SKClassCategoryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKClassCategoryCell.m; sourceTree = "<group>"; };
+		E1CAE378215CF34B0069F347 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E1CAE37B215CF7200069F347 /* SKGoodsSortCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKGoodsSortCell.h; sourceTree = "<group>"; };
+		E1CAE37C215CF7200069F347 /* SKGoodsSortCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKGoodsSortCell.m; sourceTree = "<group>"; };
+		E1CAE37E215CF7A00069F347 /* SKBrandSortCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKBrandSortCell.h; sourceTree = "<group>"; };
+		E1CAE37F215CF7A00069F347 /* SKBrandSortCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKBrandSortCell.m; sourceTree = "<group>"; };
+		E1CAE39A215D317C0069F347 /* UIView+SKExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SKExtension.h"; sourceTree = "<group>"; };
+		E1CAE39B215D317C0069F347 /* UIView+SKExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SKExtension.m"; sourceTree = "<group>"; };
+		E1CAE39F215D33780069F347 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		E1CAE3A1215D3C300069F347 /* Headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Headers.h; sourceTree = "<group>"; };
+		E1CAE3A8215D46BE0069F347 /* SKBrandsSortHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKBrandsSortHeadView.h; sourceTree = "<group>"; };
+		E1CAE3A9215D46BE0069F347 /* SKBrandsSortHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKBrandsSortHeadView.m; sourceTree = "<group>"; };
+		E1CAE3AB215D47C00069F347 /* SKConsts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKConsts.h; sourceTree = "<group>"; };
+		E1CAE3AC215D47C00069F347 /* SKConsts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKConsts.m; sourceTree = "<group>"; };
+		E1CAE3AE215D4C990069F347 /* ClassiftyGoods02.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassiftyGoods02.plist; sourceTree = "<group>"; };
+		E1CAE3AF215D4C990069F347 /* ClassiftyGoods03.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassiftyGoods03.plist; sourceTree = "<group>"; };
+		E1D2805421918D79005B4919 /* SKCommodityNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKCommodityNavController.h; sourceTree = "<group>"; };
+		E1D2805521918D79005B4919 /* SKCommodityNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKCommodityNavController.m; sourceTree = "<group>"; };
+		EBA5B789495B6C3CD157073B /* Pods-SKCommodityVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKCommodityVC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKCommodityVC/Pods-SKCommodityVC.debug.xcconfig"; sourceTree = "<group>"; };
+		ED0FFEE2D18A7B7C72FAAF46 /* Pods-SKCommodityVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKCommodityVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKCommodityVC/Pods-SKCommodityVC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1CAE32E215CDA850069F347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A014AE0FF87563269BB435A /* libPods-SKCommodityVC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5255FCFC26157B88FE85962 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBA5B789495B6C3CD157073B /* Pods-SKCommodityVC.debug.xcconfig */,
+				ED0FFEE2D18A7B7C72FAAF46 /* Pods-SKCommodityVC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1CAE328215CDA850069F347 = {
+			isa = PBXGroup;
+			children = (
+				E1CAE333215CDA850069F347 /* SKCommodityVC */,
+				E1CAE332215CDA850069F347 /* Products */,
+				C5255FCFC26157B88FE85962 /* Pods */,
+				E8013C21BF436256C49F203C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1CAE332215CDA850069F347 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1CAE331215CDA850069F347 /* SKCommodityVC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1CAE333215CDA850069F347 /* SKCommodityVC */ = {
+			isa = PBXGroup;
+			children = (
+				E1CAE378215CF34B0069F347 /* PrefixHeader.pch */,
+				E1CAE39D215D32F90069F347 /* Headers(头文件) */,
+				E1CAE369215CE1FE0069F347 /* Plist数据 */,
+				E1CAE381215CFB8F0069F347 /* Expand扩展 */,
+				E1CAE34A215CDAEF0069F347 /* Classify */,
+				E1CAE334215CDA850069F347 /* AppDelegate.h */,
+				E1CAE335215CDA850069F347 /* AppDelegate.m */,
+				E1CAE33A215CDA850069F347 /* Main.storyboard */,
+				E1CAE33D215CDA860069F347 /* Assets.xcassets */,
+				E1CAE33F215CDA860069F347 /* LaunchScreen.storyboard */,
+				E1CAE342215CDA860069F347 /* Info.plist */,
+				E1CAE343215CDA860069F347 /* main.m */,
+			);
+			path = SKCommodityVC;
+			sourceTree = "<group>";
+		};
+		E1CAE34A215CDAEF0069F347 /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				E1CAE34B215CDAEF0069F347 /* Controller */,
+				E1CAE34C215CDAEF0069F347 /* Model */,
+				E1CAE34D215CDAEF0069F347 /* View */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		E1CAE34B215CDAEF0069F347 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1CAE34E215CDB0B0069F347 /* SKCommodityViewController.h */,
+				E1CAE34F215CDB0B0069F347 /* SKCommodityViewController.m */,
+				E1D2805421918D79005B4919 /* SKCommodityNavController.h */,
+				E1D2805521918D79005B4919 /* SKCommodityNavController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E1CAE34C215CDAEF0069F347 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1CAE351215CE0A00069F347 /* SKClassGoodsItem.h */,
+				E1CAE352215CE0A00069F347 /* SKClassGoodsItem.m */,
+				E1CAE36E215CE4CE0069F347 /* SKClassMianItem.h */,
+				E1CAE36F215CE4CE0069F347 /* SKClassMianItem.m */,
+				E1CAE371215CE51E0069F347 /* SKClassSubItem.h */,
+				E1CAE372215CE51E0069F347 /* SKClassSubItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1CAE34D215CDAEF0069F347 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1CAE37A215CF6C60069F347 /* TableViewCell */,
+				E1CAE379215CF68D0069F347 /* CollectionViewCell */,
+				E1CAE3A7215D468B0069F347 /* HeaderView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1CAE369215CE1FE0069F347 /* Plist数据 */ = {
+			isa = PBXGroup;
+			children = (
+				E1CAE36A215CE1FE0069F347 /* ClassifyTitles.plist */,
+				E1CAE36B215CE1FE0069F347 /* ClassiftyGoods01.plist */,
+				E1CAE3AE215D4C990069F347 /* ClassiftyGoods02.plist */,
+				E1CAE3AF215D4C990069F347 /* ClassiftyGoods03.plist */,
+			);
+			path = "Plist数据";
+			sourceTree = "<group>";
+		};
+		E1CAE379215CF68D0069F347 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E1CAE37B215CF7200069F347 /* SKGoodsSortCell.h */,
+				E1CAE37C215CF7200069F347 /* SKGoodsSortCell.m */,
+				E1CAE37E215CF7A00069F347 /* SKBrandSortCell.h */,
+				E1CAE37F215CF7A00069F347 /* SKBrandSortCell.m */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		E1CAE37A215CF6C60069F347 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E1CAE374215CE7830069F347 /* SKClassCategoryCell.h */,
+				E1CAE375215CE7830069F347 /* SKClassCategoryCell.m */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		E1CAE381215CFB8F0069F347 /* Expand扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				E1CAE3A2215D3C7E0069F347 /* Const(常量) */,
+				E1CAE39E215D331E0069F347 /* Macros(宏) */,
+				E1CAE390215D304D0069F347 /* Category(分类) */,
+			);
+			path = "Expand扩展";
+			sourceTree = "<group>";
+		};
+		E1CAE390215D304D0069F347 /* Category(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				E1CAE39A215D317C0069F347 /* UIView+SKExtension.h */,
+				E1CAE39B215D317C0069F347 /* UIView+SKExtension.m */,
+			);
+			path = "Category(分类)";
+			sourceTree = "<group>";
+		};
+		E1CAE39D215D32F90069F347 /* Headers(头文件) */ = {
+			isa = PBXGroup;
+			children = (
+				E1CAE3A1215D3C300069F347 /* Headers.h */,
+			);
+			path = "Headers(头文件)";
+			sourceTree = "<group>";
+		};
+		E1CAE39E215D331E0069F347 /* Macros(宏) */ = {
+			isa = PBXGroup;
+			children = (
+				E1CAE39F215D33780069F347 /* Macros.h */,
+			);
+			path = "Macros(宏)";
+			sourceTree = "<group>";
+		};
+		E1CAE3A2215D3C7E0069F347 /* Const(常量) */ = {
+			isa = PBXGroup;
+			children = (
+				E1CAE3AB215D47C00069F347 /* SKConsts.h */,
+				E1CAE3AC215D47C00069F347 /* SKConsts.m */,
+			);
+			path = "Const(常量)";
+			sourceTree = "<group>";
+		};
+		E1CAE3A7215D468B0069F347 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				E1CAE3A8215D46BE0069F347 /* SKBrandsSortHeadView.h */,
+				E1CAE3A9215D46BE0069F347 /* SKBrandsSortHeadView.m */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		E8013C21BF436256C49F203C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				220E7A3C120F2115ADEFDD43 /* libPods-SKCommodityVC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1CAE330215CDA850069F347 /* SKCommodityVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CAE347215CDA860069F347 /* Build configuration list for PBXNativeTarget "SKCommodityVC" */;
+			buildPhases = (
+				FDB577E16438EC8B0D5440B4 /* [CP] Check Pods Manifest.lock */,
+				E1CAE32D215CDA850069F347 /* Sources */,
+				E1CAE32E215CDA850069F347 /* Frameworks */,
+				E1CAE32F215CDA850069F347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKCommodityVC;
+			productName = SKCommodityVC;
+			productReference = E1CAE331215CDA850069F347 /* SKCommodityVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1CAE329215CDA850069F347 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = SK;
+				TargetAttributes = {
+					E1CAE330215CDA850069F347 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E1CAE32C215CDA850069F347 /* Build configuration list for PBXProject "SKCommodityVC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1CAE328215CDA850069F347;
+			productRefGroup = E1CAE332215CDA850069F347 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1CAE330215CDA850069F347 /* SKCommodityVC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1CAE32F215CDA850069F347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CAE341215CDA860069F347 /* LaunchScreen.storyboard in Resources */,
+				E1CAE36C215CE1FE0069F347 /* ClassifyTitles.plist in Resources */,
+				E1CAE3B0215D4C990069F347 /* ClassiftyGoods02.plist in Resources */,
+				E1CAE33E215CDA860069F347 /* Assets.xcassets in Resources */,
+				E1CAE36D215CE1FE0069F347 /* ClassiftyGoods01.plist in Resources */,
+				E1CAE33C215CDA850069F347 /* Main.storyboard in Resources */,
+				E1CAE3B1215D4C990069F347 /* ClassiftyGoods03.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FDB577E16438EC8B0D5440B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SKCommodityVC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1CAE32D215CDA850069F347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CAE370215CE4CE0069F347 /* SKClassMianItem.m in Sources */,
+				E1CAE376215CE7830069F347 /* SKClassCategoryCell.m in Sources */,
+				E1CAE353215CE0A00069F347 /* SKClassGoodsItem.m in Sources */,
+				E1CAE39C215D317C0069F347 /* UIView+SKExtension.m in Sources */,
+				E1D2805621918D79005B4919 /* SKCommodityNavController.m in Sources */,
+				E1CAE3AD215D47C00069F347 /* SKConsts.m in Sources */,
+				E1CAE344215CDA860069F347 /* main.m in Sources */,
+				E1CAE380215CF7A00069F347 /* SKBrandSortCell.m in Sources */,
+				E1CAE350215CDB0B0069F347 /* SKCommodityViewController.m in Sources */,
+				E1CAE373215CE51E0069F347 /* SKClassSubItem.m in Sources */,
+				E1CAE3AA215D46BE0069F347 /* SKBrandsSortHeadView.m in Sources */,
+				E1CAE37D215CF7200069F347 /* SKGoodsSortCell.m in Sources */,
+				E1CAE336215CDA850069F347 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1CAE33A215CDA850069F347 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1CAE33B215CDA850069F347 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1CAE33F215CDA860069F347 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1CAE340215CDA860069F347 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1CAE345215CDA860069F347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1CAE346215CDA860069F347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1CAE348215CDA860069F347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA5B789495B6C3CD157073B /* Pods-SKCommodityVC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F8E7JE29H;
+				GCC_PREFIX_HEADER = SKCommodityVC/PrefixHeader.pch;
+				INFOPLIST_FILE = SKCommodityVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.sunke.SKCommodityVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1CAE349215CDA860069F347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0FFEE2D18A7B7C72FAAF46 /* Pods-SKCommodityVC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F8E7JE29H;
+				GCC_PREFIX_HEADER = SKCommodityVC/PrefixHeader.pch;
+				INFOPLIST_FILE = SKCommodityVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.sunke.SKCommodityVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1CAE32C215CDA850069F347 /* Build configuration list for PBXProject "SKCommodityVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CAE345215CDA860069F347 /* Debug */,
+				E1CAE346215CDA860069F347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CAE347215CDA860069F347 /* Build configuration list for PBXNativeTarget "SKCommodityVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CAE348215CDA860069F347 /* Debug */,
+				E1CAE349215CDA860069F347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1CAE329215CDA850069F347 /* Project object */;
+}

@@ -1,4 +1,4 @@
-# runtime-dictToModel
+# RuntimeDictToModelDemo
 runtime 字典转模型
 
 > 将后台JSON数据中的字典转成本地的模型，我们一般选用部分优秀的第三方框架，如SBJSON、JSONKit、MJExtension、YYModel等。但是，一些简单的数据，我们也可以尝试自己来实现转换的过程。
@@ -11,7 +11,9 @@ runtime 字典转模型
 + 创建模型原则: 从外层到内存, 一个类型字典对应一个模型
 + 示例程序中, 根据plist, 创建了三个类: ShopItem , AttrModel , ListItemModel 
 
-![runtime-pic1.png](https://upload-images.jianshu.io/upload_images/126164-b08f62ddfa2ceaa4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<img src="https://upload-images.jianshu.io/upload_images/126164-b08f62ddfa2ceaa4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width="500" alt="RuntimeDictToModelDemo"></img>
+
 
 + 注意: 定义的属性名和字典中的键名字一致.
 

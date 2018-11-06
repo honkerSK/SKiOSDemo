@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E15502F421629191002E7794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15502F321629191002E7794 /* Assets.xcassets */; };
+		E15502F721629191002E7794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15502F521629191002E7794 /* LaunchScreen.storyboard */; };
+		E15502FA21629191002E7794 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E15502F921629191002E7794 /* main.m */; };
+		E1BE494B216298CA00DFBF25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE4944216298CA00DFBF25 /* AppDelegate.m */; };
+		E1BE494C216298CA00DFBF25 /* SKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE4948216298CA00DFBF25 /* SKTabBarController.m */; };
+		E1BE4951216299D400DFBF25 /* SKTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE4950216299D400DFBF25 /* SKTabBar.m */; };
+		E1BE495421629A5300DFBF25 /* SKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE495321629A5300DFBF25 /* SKNavigationController.m */; };
+		E1BE495821629B3200DFBF25 /* UIView+SKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE495721629B3200DFBF25 /* UIView+SKExtension.m */; };
+		E1BE495B21629BA900DFBF25 /* UIImage+SKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE495A21629BA900DFBF25 /* UIImage+SKImage.m */; };
+		E1BE49612162A26400DFBF25 /* SKMessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE49602162A26400DFBF25 /* SKMessageVC.m */; };
+		E1BE49642162A27A00DFBF25 /* SKHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE49632162A27A00DFBF25 /* SKHomeVC.m */; };
+		E1BE49672162A2A700DFBF25 /* SKMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE49662162A2A700DFBF25 /* SKMineVC.m */; };
+		E1BE496A2162A2B600DFBF25 /* SKFishVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE49692162A2B600DFBF25 /* SKFishVC.m */; };
+		E1BE496E2162AC8100DFBF25 /* SKPostVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BE496D2162AC8100DFBF25 /* SKPostVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E108713B216DC5AF00A13E53 /* SKBulgeTabBar-iOS.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SKBulgeTabBar-iOS.pch"; sourceTree = "<group>"; };
+		E15502E72162918F002E7794 /* SKBulgeTabBar-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SKBulgeTabBar-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15502F321629191002E7794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E15502F621629191002E7794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E15502F821629191002E7794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E15502F921629191002E7794 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1BE4943216298CA00DFBF25 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1BE4944216298CA00DFBF25 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1BE4948216298CA00DFBF25 /* SKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTabBarController.m; sourceTree = "<group>"; };
+		E1BE4949216298CA00DFBF25 /* SKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTabBarController.h; sourceTree = "<group>"; };
+		E1BE494F216299D400DFBF25 /* SKTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKTabBar.h; sourceTree = "<group>"; };
+		E1BE4950216299D400DFBF25 /* SKTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKTabBar.m; sourceTree = "<group>"; };
+		E1BE495221629A5300DFBF25 /* SKNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKNavigationController.h; sourceTree = "<group>"; };
+		E1BE495321629A5300DFBF25 /* SKNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKNavigationController.m; sourceTree = "<group>"; };
+		E1BE495621629B3200DFBF25 /* UIView+SKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SKExtension.h"; sourceTree = "<group>"; };
+		E1BE495721629B3200DFBF25 /* UIView+SKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SKExtension.m"; sourceTree = "<group>"; };
+		E1BE495921629BA900DFBF25 /* UIImage+SKImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+SKImage.h"; sourceTree = "<group>"; };
+		E1BE495A21629BA900DFBF25 /* UIImage+SKImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SKImage.m"; sourceTree = "<group>"; };
+		E1BE495F2162A26400DFBF25 /* SKMessageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKMessageVC.h; sourceTree = "<group>"; };
+		E1BE49602162A26400DFBF25 /* SKMessageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKMessageVC.m; sourceTree = "<group>"; };
+		E1BE49622162A27A00DFBF25 /* SKHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKHomeVC.h; sourceTree = "<group>"; };
+		E1BE49632162A27A00DFBF25 /* SKHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKHomeVC.m; sourceTree = "<group>"; };
+		E1BE49652162A2A700DFBF25 /* SKMineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKMineVC.h; sourceTree = "<group>"; };
+		E1BE49662162A2A700DFBF25 /* SKMineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKMineVC.m; sourceTree = "<group>"; };
+		E1BE49682162A2B600DFBF25 /* SKFishVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKFishVC.h; sourceTree = "<group>"; };
+		E1BE49692162A2B600DFBF25 /* SKFishVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKFishVC.m; sourceTree = "<group>"; };
+		E1BE496C2162AC8100DFBF25 /* SKPostVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKPostVC.h; sourceTree = "<group>"; };
+		E1BE496D2162AC8100DFBF25 /* SKPostVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKPostVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E15502E42162918F002E7794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E15502DE2162918F002E7794 = {
+			isa = PBXGroup;
+			children = (
+				E15502E92162918F002E7794 /* SKBulgeTabBar-iOS */,
+				E15502E82162918F002E7794 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E15502E82162918F002E7794 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E15502E72162918F002E7794 /* SKBulgeTabBar-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E15502E92162918F002E7794 /* SKBulgeTabBar-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E1BE493E216298CA00DFBF25 /* Classes */,
+				E15502F321629191002E7794 /* Assets.xcassets */,
+				E15502F521629191002E7794 /* LaunchScreen.storyboard */,
+				E15502F821629191002E7794 /* Info.plist */,
+				E15502F921629191002E7794 /* main.m */,
+				E108713B216DC5AF00A13E53 /* SKBulgeTabBar-iOS.pch */,
+			);
+			path = "SKBulgeTabBar-iOS";
+			sourceTree = "<group>";
+		};
+		E1BE493E216298CA00DFBF25 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E1BE495521629AFA00DFBF25 /* Category */,
+				E1BE4942216298CA00DFBF25 /* AppDelegate */,
+				E1BE4946216298CA00DFBF25 /* Main */,
+				E1BE493F216298CA00DFBF25 /* Home(首页) */,
+				E1BE4945216298CA00DFBF25 /* Fish(鱼塘) */,
+				E1BE4941216298CA00DFBF25 /* Message(消息) */,
+				E1BE4940216298CA00DFBF25 /* Mine(我的) */,
+				E1BE496B2162AC4E00DFBF25 /* Post(发布) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E1BE493F216298CA00DFBF25 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				E1BE49622162A27A00DFBF25 /* SKHomeVC.h */,
+				E1BE49632162A27A00DFBF25 /* SKHomeVC.m */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		E1BE4940216298CA00DFBF25 /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				E1BE494D2162992B00DFBF25 /* Controller */,
+			);
+			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		E1BE4941216298CA00DFBF25 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				E1BE495F2162A26400DFBF25 /* SKMessageVC.h */,
+				E1BE49602162A26400DFBF25 /* SKMessageVC.m */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		E1BE4942216298CA00DFBF25 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E1BE4943216298CA00DFBF25 /* AppDelegate.h */,
+				E1BE4944216298CA00DFBF25 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E1BE4945216298CA00DFBF25 /* Fish(鱼塘) */ = {
+			isa = PBXGroup;
+			children = (
+				E1BE49682162A2B600DFBF25 /* SKFishVC.h */,
+				E1BE49692162A2B600DFBF25 /* SKFishVC.m */,
+			);
+			path = "Fish(鱼塘)";
+			sourceTree = "<group>";
+		};
+		E1BE4946216298CA00DFBF25 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E1BE4947216298CA00DFBF25 /* Controller */,
+				E1BE494A216298CA00DFBF25 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E1BE4947216298CA00DFBF25 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1BE4949216298CA00DFBF25 /* SKTabBarController.h */,
+				E1BE4948216298CA00DFBF25 /* SKTabBarController.m */,
+				E1BE495221629A5300DFBF25 /* SKNavigationController.h */,
+				E1BE495321629A5300DFBF25 /* SKNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E1BE494A216298CA00DFBF25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1BE494F216299D400DFBF25 /* SKTabBar.h */,
+				E1BE4950216299D400DFBF25 /* SKTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1BE494D2162992B00DFBF25 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1BE49652162A2A700DFBF25 /* SKMineVC.h */,
+				E1BE49662162A2A700DFBF25 /* SKMineVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E1BE495521629AFA00DFBF25 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E1BE495621629B3200DFBF25 /* UIView+SKExtension.h */,
+				E1BE495721629B3200DFBF25 /* UIView+SKExtension.m */,
+				E1BE495921629BA900DFBF25 /* UIImage+SKImage.h */,
+				E1BE495A21629BA900DFBF25 /* UIImage+SKImage.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E1BE496B2162AC4E00DFBF25 /* Post(发布) */ = {
+			isa = PBXGroup;
+			children = (
+				E1BE496C2162AC8100DFBF25 /* SKPostVC.h */,
+				E1BE496D2162AC8100DFBF25 /* SKPostVC.m */,
+			);
+			path = "Post(发布)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E15502E62162918F002E7794 /* SKBulgeTabBar-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15502FD21629191002E7794 /* Build configuration list for PBXNativeTarget "SKBulgeTabBar-iOS" */;
+			buildPhases = (
+				E15502E32162918F002E7794 /* Sources */,
+				E15502E42162918F002E7794 /* Frameworks */,
+				E15502E52162918F002E7794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SKBulgeTabBar-iOS";
+			productName = "SKBulgeTabBar-iOS";
+			productReference = E15502E72162918F002E7794 /* SKBulgeTabBar-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E15502DF2162918F002E7794 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = SK;
+				TargetAttributes = {
+					E15502E62162918F002E7794 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = E15502E22162918F002E7794 /* Build configuration list for PBXProject "SKBulgeTabBar-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E15502DE2162918F002E7794;
+			productRefGroup = E15502E82162918F002E7794 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E15502E62162918F002E7794 /* SKBulgeTabBar-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E15502E52162918F002E7794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15502F721629191002E7794 /* LaunchScreen.storyboard in Resources */,
+				E15502F421629191002E7794 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E15502E32162918F002E7794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BE49612162A26400DFBF25 /* SKMessageVC.m in Sources */,
+				E1BE495821629B3200DFBF25 /* UIView+SKExtension.m in Sources */,
+				E1BE495B21629BA900DFBF25 /* UIImage+SKImage.m in Sources */,
+				E1BE494B216298CA00DFBF25 /* AppDelegate.m in Sources */,
+				E1BE496A2162A2B600DFBF25 /* SKFishVC.m in Sources */,
+				E15502FA21629191002E7794 /* main.m in Sources */,
+				E1BE496E2162AC8100DFBF25 /* SKPostVC.m in Sources */,
+				E1BE49672162A2A700DFBF25 /* SKMineVC.m in Sources */,
+				E1BE495421629A5300DFBF25 /* SKNavigationController.m in Sources */,
+				E1BE49642162A27A00DFBF25 /* SKHomeVC.m in Sources */,
+				E1BE494C216298CA00DFBF25 /* SKTabBarController.m in Sources */,
+				E1BE4951216299D400DFBF25 /* SKTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E15502F521629191002E7794 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E15502F621629191002E7794 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E15502FB21629191002E7794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E15502FC21629191002E7794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E15502FE21629191002E7794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F8E7JE29H;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SKBulgeTabBar-iOS/SKBulgeTabBar-iOS.pch";
+				INFOPLIST_FILE = "SKBulgeTabBar-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sunke.SKBulgeTabBar-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E15502FF21629191002E7794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F8E7JE29H;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SKBulgeTabBar-iOS/SKBulgeTabBar-iOS.pch";
+				INFOPLIST_FILE = "SKBulgeTabBar-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sunke.SKBulgeTabBar-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E15502E22162918F002E7794 /* Build configuration list for PBXProject "SKBulgeTabBar-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15502FB21629191002E7794 /* Debug */,
+				E15502FC21629191002E7794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15502FD21629191002E7794 /* Build configuration list for PBXNativeTarget "SKBulgeTabBar-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15502FE21629191002E7794 /* Debug */,
+				E15502FF21629191002E7794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E15502DF2162918F002E7794 /* Project object */;
+}
