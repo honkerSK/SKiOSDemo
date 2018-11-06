@@ -27,7 +27,7 @@ iOSDemo
 
 12-3DTouchDemo
 
-
+13-CircleClipDemo	(裁剪圆形图片)
 
 
 
