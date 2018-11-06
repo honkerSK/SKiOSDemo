@@ -29,5 +29,5 @@ iOSDemo
 
 13-CircleClipDemo	(裁剪圆形图片)
 
-
+14-DetailsPageHeaderDemo	(个人详情页头部视图效果)
 

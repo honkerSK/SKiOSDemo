@@ -13,7 +13,7 @@
 		E118B1FA2191EAFA00B85D24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E118B1F92191EAFA00B85D24 /* Assets.xcassets */; };
 		E118B1FD2191EAFA00B85D24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E118B1FB2191EAFA00B85D24 /* LaunchScreen.storyboard */; };
 		E118B2002191EAFA00B85D24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E118B1FF2191EAFA00B85D24 /* main.m */; };
-		E118B2082191EB2500B85D24 /* UIImage+CircleClip.m in Sources */ = {isa = PBXBuildFile; fileRef = E118B2072191EB2400B85D24 /* UIImage+CircleClip.m */; };
+		E118B233219209FB00B85D24 /* UIImage+CircleClip.m in Sources */ = {isa = PBXBuildFile; fileRef = E118B232219209FB00B85D24 /* UIImage+CircleClip.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		E118B1FC2191EAFA00B85D24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E118B1FE2191EAFA00B85D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E118B1FF2191EAFA00B85D24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E118B2062191EB2400B85D24 /* UIImage+CircleClip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+CircleClip.h"; path = "../../SKCircleClickDemo/SKCircleClickDemo/UIImage+CircleClip.h"; sourceTree = "<group>"; };
-		E118B2072191EB2400B85D24 /* UIImage+CircleClip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CircleClip.m"; path = "../../SKCircleClickDemo/SKCircleClickDemo/UIImage+CircleClip.m"; sourceTree = "<group>"; };
+		E118B231219209FB00B85D24 /* UIImage+CircleClip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CircleClip.h"; sourceTree = "<group>"; };
+		E118B232219209FB00B85D24 /* UIImage+CircleClip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CircleClip.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +65,8 @@
 				E118B1F12191EAF900B85D24 /* AppDelegate.m */,
 				E118B1F32191EAF900B85D24 /* ViewController.h */,
 				E118B1F42191EAF900B85D24 /* ViewController.m */,
-				E118B2062191EB2400B85D24 /* UIImage+CircleClip.h */,
-				E118B2072191EB2400B85D24 /* UIImage+CircleClip.m */,
+				E118B231219209FB00B85D24 /* UIImage+CircleClip.h */,
+				E118B232219209FB00B85D24 /* UIImage+CircleClip.m */,
 				E118B1F62191EAF900B85D24 /* Main.storyboard */,
 				E118B1F92191EAFA00B85D24 /* Assets.xcassets */,
 				E118B1FB2191EAFA00B85D24 /* LaunchScreen.storyboard */,
@@ -147,7 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E118B1F52191EAF900B85D24 /* ViewController.m in Sources */,
-				E118B2082191EB2500B85D24 /* UIImage+CircleClip.m in Sources */,
+				E118B233219209FB00B85D24 /* UIImage+CircleClip.m in Sources */,
 				E118B2002191EAFA00B85D24 /* main.m in Sources */,
 				E118B1F22191EAF900B85D24 /* AppDelegate.m in Sources */,
 			);
