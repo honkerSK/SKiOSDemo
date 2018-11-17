@@ -12,28 +12,28 @@ runtime 字典转模型
 + 示例程序中, 根据plist, 创建了三个类: ShopItem , AttrModel , ListItemModel 
 
 
-<img src="https://github.com/honkerSK/SKiOSDemo/blob/master/1-RuntimeDictToModelDemo/runtime-pic1.png" width="500" alt="RuntimeDictToModelDemo"></img>
+<img src="https://github.com/honkerSK/SKiOSDemo/blob/master/01-RuntimeDictToModelDemo/runtime-pic1.png" width="500" alt="RuntimeDictToModelDemo"></img>
 
 
 + 注意: 定义的属性名和字典中的键名字一致.
 
 ### 2.在分类中导入最外层模型
 
-<img src="https://github.com/honkerSK/SKiOSDemo/blob/master/1-RuntimeDictToModelDemo/runtime-pic2.png" width="500" alt="RuntimeDictToModelDemo"></img>
+<img src="https://github.com/honkerSK/SKiOSDemo/blob/master/01-RuntimeDictToModelDemo/runtime-pic2.png" width="500" alt="RuntimeDictToModelDemo"></img>
 
 
 ### 3.最外层类中导入 NSObject+EnumDict 分类
 
-<img src="https://github.com/honkerSK/SKiOSDemo/blob/master/1-RuntimeDictToModelDemo/runtime-pic3.png" width="500" alt="RuntimeDictToModelDemo"></img>
+<img src="https://github.com/honkerSK/SKiOSDemo/blob/master/01-RuntimeDictToModelDemo/runtime-pic3.png" width="500" alt="RuntimeDictToModelDemo"></img>
 
 ### 4.遵守分类协议 ModelDelegate, 实现协议方法
 
-<img src="https://github.com/honkerSK/SKiOSDemo/blob/master/1-RuntimeDictToModelDemo/runtime-pic4.png" width="500" alt="RuntimeDictToModelDemo"></img>
+<img src="https://github.com/honkerSK/SKiOSDemo/blob/master/01-RuntimeDictToModelDemo/runtime-pic4.png" width="500" alt="RuntimeDictToModelDemo"></img>
 
 
 ### 5.控制器中, 导入最外层模型 ShopItem.h , 解析数据遍历数组, 并字典转模型
 
-<img src="https://github.com/honkerSK/SKiOSDemo/blob/master/1-RuntimeDictToModelDemo/runtime-pic5.png" width="500" alt="RuntimeDictToModelDemo"></img>
+<img src="https://github.com/honkerSK/SKiOSDemo/blob/master/01-RuntimeDictToModelDemo/runtime-pic5.png" width="500" alt="RuntimeDictToModelDemo"></img>
 
 
 
