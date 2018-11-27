@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AFNetworkingOfflineFileDownloadFileVC">
+            <connections>
+                <outlet property="progressLabel" destination="YNQ-Ja-ho7" id="lDX-dW-YPu"/>
+                <outlet property="progressView" destination="5Qc-BU-7UZ" id="SJe-Sm-CRr"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5Qc-BU-7UZ">
+                    <rect key="frame" x="10" y="110" width="355" height="2"/>
+                </progressView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGZ-cT-iIv">
+                    <rect key="frame" x="155.5" y="253" width="64" height="64"/>
+                    <state key="normal" backgroundImage="play"/>
+                    <state key="selected" backgroundImage="stop"/>
+                    <connections>
+                        <action selector="OfflinResumeDownloadBtnClicked:" destination="-1" eventType="touchUpInside" id="H1d-wJ-1qn"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="当前下载进度:00.00%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YNQ-Ja-ho7">
+                    <rect key="frame" x="103.5" y="172" width="168" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="5Qc-BU-7UZ" secondAttribute="trailing" constant="10" id="3Lb-PN-wxz"/>
+                <constraint firstItem="5Qc-BU-7UZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="KCH-7U-a4f"/>
+                <constraint firstItem="dGZ-cT-iIv" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Oum-Ym-c0p"/>
+                <constraint firstItem="5Qc-BU-7UZ" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="90" id="ZQP-2p-6Lo"/>
+                <constraint firstItem="YNQ-Ja-ho7" firstAttribute="top" secondItem="5Qc-BU-7UZ" secondAttribute="bottom" constant="60" id="d9e-Q4-W63"/>
+                <constraint firstItem="dGZ-cT-iIv" firstAttribute="top" secondItem="YNQ-Ja-ho7" secondAttribute="bottom" constant="60" id="oiH-rT-El5"/>
+                <constraint firstItem="YNQ-Ja-ho7" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vyc-LE-XkD"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="53.600000000000001" y="48.125937031484263"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="play" width="64" height="64"/>
+        <image name="stop" width="64" height="64"/>
+    </resources>
+</document>

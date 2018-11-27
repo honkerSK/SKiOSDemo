@@ -37,3 +37,6 @@ iOSDemo
 
 17-SKBeginUpdatesDemo (使用beginUpdate更新tableView)
 
+18-AppAJumpAppBDemo (app应用间相互跳转)
+
+19-SKDownloadDemo (iOS下载文件的4种方式和离线下载)

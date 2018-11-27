@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sz1-WL-MJF">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEn-BZ-pLR">
+                                <rect key="frame" x="85.5" y="89" width="204" height="34"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="NSData方式下载(小文件)"/>
+                                <connections>
+                                    <action selector="NSDataDownloadFileBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3PV-a9-9E2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iuz-pl-v3i">
+                                <rect key="frame" x="79" y="326" width="217" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="NSURLSession的Block方法下载"/>
+                                <connections>
+                                    <action selector="NSURLSessionBlockDownloadBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I48-Ru-8rM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWk-iH-aZt">
+                                <rect key="frame" x="67" y="377" width="241" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="NSURLSession的Delegate方法下载"/>
+                                <connections>
+                                    <action selector="NSURLSessionDelegateDownloadBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YA7-Uk-IsP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqe-QK-wRb">
+                                <rect key="frame" x="45.5" y="428" width="284" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="NSURLSession（断点下载 | 不支持离线）"/>
+                                <connections>
+                                    <action selector="NSURLSessionBreakpointDownloadBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hHt-O7-Uu2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjz-du-0zk">
+                                <rect key="frame" x="53" y="480" width="269" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="NSURLSession（断点下载 | 支持离线）"/>
+                                <connections>
+                                    <action selector="NSURLSessionOfflineBreakpointDownloadBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AHA-rV-tDt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="26z-Vn-5gC">
+                                <rect key="frame" x="75" y="535" width="225" height="34"/>
+                                <color key="backgroundColor" red="1" green="0.27549172589999998" blue="0.40981886569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="AFNetworking方式下载文件"/>
+                                <connections>
+                                    <action selector="AFNetworkingDownloadFileBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wbl-Wz-CDe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uyj-ha-prh">
+                                <rect key="frame" x="28.5" y="590" width="318" height="34"/>
+                                <color key="backgroundColor" red="1" green="0.27549172589999998" blue="0.40981886569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="AFNetworking （断点下载 | 支持离线）"/>
+                                <connections>
+                                    <action selector="AFNetworkingOfflineDownloadFileBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AlM-Sj-ZlG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFd-Ar-AJ1">
+                                <rect key="frame" x="64.5" y="155" width="246" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="NSURLConnection方式下载(小文件)"/>
+                                <connections>
+                                    <action selector="NSURLConnectionDownloadSmallFileBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YCx-61-l8S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RXN-r9-4rP">
+                                <rect key="frame" x="64.5" y="204" width="246" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="NSURLConnection方式下载(大文件)"/>
+                                <connections>
+                                    <action selector="NSURLConnectionDownloadBigFileBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3ZB-RR-VGE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxH-F3-WbG">
+                                <rect key="frame" x="48.5" y="256" width="278" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="NSURLConnection (断点下载 | 支持离线)"/>
+                                <connections>
+                                    <action selector="NSURLConnectionBreakpointDownloadBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gxj-lS-ij2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cFd-Ar-AJ1" firstAttribute="top" secondItem="lEn-BZ-pLR" secondAttribute="bottom" constant="32" id="1vm-Kd-h6J"/>
+                            <constraint firstItem="RXN-r9-4rP" firstAttribute="top" secondItem="cFd-Ar-AJ1" secondAttribute="bottom" constant="19" id="Crt-Mo-e0M"/>
+                            <constraint firstItem="lEn-BZ-pLR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NSg-nR-NhT"/>
+                            <constraint firstItem="qxH-F3-WbG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OQN-kT-ksm"/>
+                            <constraint firstItem="26z-Vn-5gC" firstAttribute="top" secondItem="fjz-du-0zk" secondAttribute="bottom" constant="25" id="PM3-jY-GY3"/>
+                            <constraint firstItem="uyj-ha-prh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rcj-vh-OCT"/>
+                            <constraint firstItem="cFd-Ar-AJ1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sj6-Vu-EKr"/>
+                            <constraint firstItem="lEn-BZ-pLR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="Ste-6s-vR0"/>
+                            <constraint firstItem="RXN-r9-4rP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WJO-pe-TFm"/>
+                            <constraint firstItem="aqe-QK-wRb" firstAttribute="top" secondItem="qWk-iH-aZt" secondAttribute="bottom" constant="21" id="acz-Ly-Y2y"/>
+                            <constraint firstItem="qWk-iH-aZt" firstAttribute="top" secondItem="Iuz-pl-v3i" secondAttribute="bottom" constant="21" id="flQ-5z-fKO"/>
+                            <constraint firstItem="fjz-du-0zk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jyq-lC-ILA"/>
+                            <constraint firstItem="aqe-QK-wRb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kzI-g2-QjS"/>
+                            <constraint firstItem="qxH-F3-WbG" firstAttribute="top" secondItem="RXN-r9-4rP" secondAttribute="bottom" constant="22" id="nAn-oN-mZw"/>
+                            <constraint firstItem="uyj-ha-prh" firstAttribute="top" secondItem="26z-Vn-5gC" secondAttribute="bottom" constant="21" id="otM-ts-1d5"/>
+                            <constraint firstItem="fjz-du-0zk" firstAttribute="top" secondItem="aqe-QK-wRb" secondAttribute="bottom" constant="22" id="ril-ez-n2e"/>
+                            <constraint firstItem="Iuz-pl-v3i" firstAttribute="top" secondItem="qxH-F3-WbG" secondAttribute="bottom" constant="40" id="tBE-5N-OXP"/>
+                            <constraint firstItem="Iuz-pl-v3i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ut0-io-AJa"/>
+                            <constraint firstItem="qWk-iH-aZt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vUg-5y-1oT"/>
+                            <constraint firstItem="26z-Vn-5gC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yxl-BG-Zyb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zWZ-4y-VfA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1030" y="134"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="z4E-0Y-pNC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sz1-WL-MJF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2rj-qA-RF7">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="4ol-H3-36O"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GBq-Gy-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="238" y="134"/>
+        </scene>
+    </scenes>
+</document>

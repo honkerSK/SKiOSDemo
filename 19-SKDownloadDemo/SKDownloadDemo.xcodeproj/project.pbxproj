@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1383F2521AAE38300875B9E /* NSURLConnectionBreakpointDownloadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1383F2321AAE38300875B9E /* NSURLConnectionBreakpointDownloadVC.m */; };
+		E1383F2621AAE38300875B9E /* NSURLConnectionBreakpointDownloadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1383F2421AAE38300875B9E /* NSURLConnectionBreakpointDownloadVC.xib */; };
+		E1383F2B21AAEFDA00875B9E /* NSURLSessionBlockDownloadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1383F2921AAEFDA00875B9E /* NSURLSessionBlockDownloadVC.m */; };
+		E1383F2C21AAEFDA00875B9E /* NSURLSessionBlockDownloadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1383F2A21AAEFDA00875B9E /* NSURLSessionBlockDownloadVC.xib */; };
+		E1383F3121AB0B8D00875B9E /* NSURLSessionDelegateDownloadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1383F2F21AB0B8D00875B9E /* NSURLSessionDelegateDownloadVC.m */; };
+		E1383F3221AB0B8D00875B9E /* NSURLSessionDelegateDownloadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1383F3021AB0B8D00875B9E /* NSURLSessionDelegateDownloadVC.xib */; };
+		E1383F3721AB1BD100875B9E /* NSURLSessionBreakpointDownloadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1383F3521AB1BD100875B9E /* NSURLSessionBreakpointDownloadVC.m */; };
+		E1383F3821AB1BD100875B9E /* NSURLSessionBreakpointDownloadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1383F3621AB1BD100875B9E /* NSURLSessionBreakpointDownloadVC.xib */; };
+		E1383F3D21AB24FE00875B9E /* NSURLSessionOfflineBreakpointDownloadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1383F3B21AB24FE00875B9E /* NSURLSessionOfflineBreakpointDownloadVC.m */; };
+		E1383F3E21AB24FE00875B9E /* NSURLSessionOfflineBreakpointDownloadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1383F3C21AB24FE00875B9E /* NSURLSessionOfflineBreakpointDownloadVC.xib */; };
+		E1A6FC7021A9934200960DE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A6FC6F21A9934200960DE6 /* AppDelegate.m */; };
+		E1A6FC7321A9934200960DE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A6FC7221A9934200960DE6 /* ViewController.m */; };
+		E1A6FC7621A9934200960DE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A6FC7421A9934200960DE6 /* Main.storyboard */; };
+		E1A6FC7821A9934400960DE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A6FC7721A9934400960DE6 /* Assets.xcassets */; };
+		E1A6FC7B21A9934400960DE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A6FC7921A9934400960DE6 /* LaunchScreen.storyboard */; };
+		E1A6FC7E21A9934400960DE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A6FC7D21A9934400960DE6 /* main.m */; };
+		E1A6FC8821A9939800960DE6 /* NSDataDownloadSmallFileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A6FC8621A9939800960DE6 /* NSDataDownloadSmallFileVC.m */; };
+		E1A6FC8921A9939800960DE6 /* NSDataDownloadSmallFileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A6FC8721A9939800960DE6 /* NSDataDownloadSmallFileVC.xib */; };
+		E1A6FC8E21A99FD000960DE6 /* NSURLConnectionDownloadSmallFileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A6FC8C21A99FD000960DE6 /* NSURLConnectionDownloadSmallFileVC.m */; };
+		E1A6FC8F21A99FD000960DE6 /* NSURLConnectionDownloadSmallFileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A6FC8D21A99FD000960DE6 /* NSURLConnectionDownloadSmallFileVC.xib */; };
+		E1A6FC9421A9A20100960DE6 /* NSURLConnectionDownloadBigFileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A6FC9221A9A20100960DE6 /* NSURLConnectionDownloadBigFileVC.m */; };
+		E1A6FC9521A9A20100960DE6 /* NSURLConnectionDownloadBigFileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A6FC9321A9A20100960DE6 /* NSURLConnectionDownloadBigFileVC.xib */; };
+		E1C6DF8A21AC7C1E002C0FB5 /* AFNetworkingDownloadFileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C6DF8821AC7C1E002C0FB5 /* AFNetworkingDownloadFileVC.m */; };
+		E1C6DF8B21AC7C1E002C0FB5 /* AFNetworkingDownloadFileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C6DF8921AC7C1E002C0FB5 /* AFNetworkingDownloadFileVC.xib */; };
+		E1C6DF8E21AC7CDF002C0FB5 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C6DF8D21AC7CDF002C0FB5 /* AFNetworking.framework */; };
+		E1C6DF9421AC894D002C0FB5 /* AFNetworkingOfflineFileDownloadFileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C6DF9221AC894D002C0FB5 /* AFNetworkingOfflineFileDownloadFileVC.m */; };
+		E1C6DF9521AC894D002C0FB5 /* AFNetworkingOfflineFileDownloadFileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C6DF9321AC894D002C0FB5 /* AFNetworkingOfflineFileDownloadFileVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1383F2221AAE38300875B9E /* NSURLConnectionBreakpointDownloadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSURLConnectionBreakpointDownloadVC.h; sourceTree = "<group>"; };
+		E1383F2321AAE38300875B9E /* NSURLConnectionBreakpointDownloadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLConnectionBreakpointDownloadVC.m; sourceTree = "<group>"; };
+		E1383F2421AAE38300875B9E /* NSURLConnectionBreakpointDownloadVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSURLConnectionBreakpointDownloadVC.xib; sourceTree = "<group>"; };
+		E1383F2821AAEFDA00875B9E /* NSURLSessionBlockDownloadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSURLSessionBlockDownloadVC.h; sourceTree = "<group>"; };
+		E1383F2921AAEFDA00875B9E /* NSURLSessionBlockDownloadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionBlockDownloadVC.m; sourceTree = "<group>"; };
+		E1383F2A21AAEFDA00875B9E /* NSURLSessionBlockDownloadVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSURLSessionBlockDownloadVC.xib; sourceTree = "<group>"; };
+		E1383F2E21AB0B8D00875B9E /* NSURLSessionDelegateDownloadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSURLSessionDelegateDownloadVC.h; sourceTree = "<group>"; };
+		E1383F2F21AB0B8D00875B9E /* NSURLSessionDelegateDownloadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionDelegateDownloadVC.m; sourceTree = "<group>"; };
+		E1383F3021AB0B8D00875B9E /* NSURLSessionDelegateDownloadVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSURLSessionDelegateDownloadVC.xib; sourceTree = "<group>"; };
+		E1383F3421AB1BD100875B9E /* NSURLSessionBreakpointDownloadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSURLSessionBreakpointDownloadVC.h; sourceTree = "<group>"; };
+		E1383F3521AB1BD100875B9E /* NSURLSessionBreakpointDownloadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionBreakpointDownloadVC.m; sourceTree = "<group>"; };
+		E1383F3621AB1BD100875B9E /* NSURLSessionBreakpointDownloadVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSURLSessionBreakpointDownloadVC.xib; sourceTree = "<group>"; };
+		E1383F3A21AB24FE00875B9E /* NSURLSessionOfflineBreakpointDownloadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSURLSessionOfflineBreakpointDownloadVC.h; sourceTree = "<group>"; };
+		E1383F3B21AB24FE00875B9E /* NSURLSessionOfflineBreakpointDownloadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionOfflineBreakpointDownloadVC.m; sourceTree = "<group>"; };
+		E1383F3C21AB24FE00875B9E /* NSURLSessionOfflineBreakpointDownloadVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSURLSessionOfflineBreakpointDownloadVC.xib; sourceTree = "<group>"; };
+		E1A6FC6B21A9934200960DE6 /* SKDownloadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKDownloadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A6FC6E21A9934200960DE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1A6FC6F21A9934200960DE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1A6FC7121A9934200960DE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1A6FC7221A9934200960DE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1A6FC7521A9934200960DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1A6FC7721A9934400960DE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1A6FC7A21A9934400960DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1A6FC7C21A9934400960DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A6FC7D21A9934400960DE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1A6FC8521A9939800960DE6 /* NSDataDownloadSmallFileVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDataDownloadSmallFileVC.h; sourceTree = "<group>"; };
+		E1A6FC8621A9939800960DE6 /* NSDataDownloadSmallFileVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDataDownloadSmallFileVC.m; sourceTree = "<group>"; };
+		E1A6FC8721A9939800960DE6 /* NSDataDownloadSmallFileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSDataDownloadSmallFileVC.xib; sourceTree = "<group>"; };
+		E1A6FC8B21A99FD000960DE6 /* NSURLConnectionDownloadSmallFileVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSURLConnectionDownloadSmallFileVC.h; sourceTree = "<group>"; };
+		E1A6FC8C21A99FD000960DE6 /* NSURLConnectionDownloadSmallFileVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLConnectionDownloadSmallFileVC.m; sourceTree = "<group>"; };
+		E1A6FC8D21A99FD000960DE6 /* NSURLConnectionDownloadSmallFileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSURLConnectionDownloadSmallFileVC.xib; sourceTree = "<group>"; };
+		E1A6FC9121A9A20100960DE6 /* NSURLConnectionDownloadBigFileVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSURLConnectionDownloadBigFileVC.h; sourceTree = "<group>"; };
+		E1A6FC9221A9A20100960DE6 /* NSURLConnectionDownloadBigFileVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLConnectionDownloadBigFileVC.m; sourceTree = "<group>"; };
+		E1A6FC9321A9A20100960DE6 /* NSURLConnectionDownloadBigFileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSURLConnectionDownloadBigFileVC.xib; sourceTree = "<group>"; };
+		E1C6DF8721AC7C1E002C0FB5 /* AFNetworkingDownloadFileVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkingDownloadFileVC.h; sourceTree = "<group>"; };
+		E1C6DF8821AC7C1E002C0FB5 /* AFNetworkingDownloadFileVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingDownloadFileVC.m; sourceTree = "<group>"; };
+		E1C6DF8921AC7C1E002C0FB5 /* AFNetworkingDownloadFileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AFNetworkingDownloadFileVC.xib; sourceTree = "<group>"; };
+		E1C6DF8D21AC7CDF002C0FB5 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		E1C6DF9121AC894D002C0FB5 /* AFNetworkingOfflineFileDownloadFileVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkingOfflineFileDownloadFileVC.h; sourceTree = "<group>"; };
+		E1C6DF9221AC894D002C0FB5 /* AFNetworkingOfflineFileDownloadFileVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingOfflineFileDownloadFileVC.m; sourceTree = "<group>"; };
+		E1C6DF9321AC894D002C0FB5 /* AFNetworkingOfflineFileDownloadFileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AFNetworkingOfflineFileDownloadFileVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1A6FC6821A9934200960DE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C6DF8E21AC7CDF002C0FB5 /* AFNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1383F2121AAE30F00875B9E /* NSURLConnection断点下载(支持离线) */ = {
+			isa = PBXGroup;
+			children = (
+				E1383F2221AAE38300875B9E /* NSURLConnectionBreakpointDownloadVC.h */,
+				E1383F2321AAE38300875B9E /* NSURLConnectionBreakpointDownloadVC.m */,
+				E1383F2421AAE38300875B9E /* NSURLConnectionBreakpointDownloadVC.xib */,
+			);
+			path = "NSURLConnection断点下载(支持离线)";
+			sourceTree = "<group>";
+		};
+		E1383F2721AAEF8500875B9E /* NSURLSession的block方式下载文件 */ = {
+			isa = PBXGroup;
+			children = (
+				E1383F2821AAEFDA00875B9E /* NSURLSessionBlockDownloadVC.h */,
+				E1383F2921AAEFDA00875B9E /* NSURLSessionBlockDownloadVC.m */,
+				E1383F2A21AAEFDA00875B9E /* NSURLSessionBlockDownloadVC.xib */,
+			);
+			path = "NSURLSession的block方式下载文件";
+			sourceTree = "<group>";
+		};
+		E1383F2D21AB0B6500875B9E /* NSURLSession的delegate方式下载文件 */ = {
+			isa = PBXGroup;
+			children = (
+				E1383F2E21AB0B8D00875B9E /* NSURLSessionDelegateDownloadVC.h */,
+				E1383F2F21AB0B8D00875B9E /* NSURLSessionDelegateDownloadVC.m */,
+				E1383F3021AB0B8D00875B9E /* NSURLSessionDelegateDownloadVC.xib */,
+			);
+			path = "NSURLSession的delegate方式下载文件";
+			sourceTree = "<group>";
+		};
+		E1383F3321AB1AF700875B9E /* NSURLSession断点下载（不支持离线） */ = {
+			isa = PBXGroup;
+			children = (
+				E1383F3421AB1BD100875B9E /* NSURLSessionBreakpointDownloadVC.h */,
+				E1383F3521AB1BD100875B9E /* NSURLSessionBreakpointDownloadVC.m */,
+				E1383F3621AB1BD100875B9E /* NSURLSessionBreakpointDownloadVC.xib */,
+			);
+			path = "NSURLSession断点下载（不支持离线）";
+			sourceTree = "<group>";
+		};
+		E1383F3921AB249500875B9E /* NSURLSession断点下载（支持离线） */ = {
+			isa = PBXGroup;
+			children = (
+				E1383F3A21AB24FE00875B9E /* NSURLSessionOfflineBreakpointDownloadVC.h */,
+				E1383F3B21AB24FE00875B9E /* NSURLSessionOfflineBreakpointDownloadVC.m */,
+				E1383F3C21AB24FE00875B9E /* NSURLSessionOfflineBreakpointDownloadVC.xib */,
+			);
+			path = "NSURLSession断点下载（支持离线）";
+			sourceTree = "<group>";
+		};
+		E1A6FC6221A9934200960DE6 = {
+			isa = PBXGroup;
+			children = (
+				E1A6FC6D21A9934200960DE6 /* SKDownloadDemo */,
+				E1A6FC6C21A9934200960DE6 /* Products */,
+				E1C6DF8C21AC7CDF002C0FB5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1A6FC6C21A9934200960DE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1A6FC6B21A9934200960DE6 /* SKDownloadDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1A6FC6D21A9934200960DE6 /* SKDownloadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E1A6FC8421A9935B00960DE6 /* NSData下载小文件 */,
+				E1A6FC8A21A99FA300960DE6 /* NSURLConnection下载小文件 */,
+				E1A6FC9021A9A1CB00960DE6 /* NSURLConnection下载大文件 */,
+				E1383F2121AAE30F00875B9E /* NSURLConnection断点下载(支持离线) */,
+				E1383F2721AAEF8500875B9E /* NSURLSession的block方式下载文件 */,
+				E1383F2D21AB0B6500875B9E /* NSURLSession的delegate方式下载文件 */,
+				E1383F3321AB1AF700875B9E /* NSURLSession断点下载（不支持离线） */,
+				E1383F3921AB249500875B9E /* NSURLSession断点下载（支持离线） */,
+				E1C6DF8621AC7BEF002C0FB5 /* AFNetworking下载文件 */,
+				E1C6DF9021AC891C002C0FB5 /* AFNetworking断点下载（支持离线） */,
+				E1A6FC6E21A9934200960DE6 /* AppDelegate.h */,
+				E1A6FC6F21A9934200960DE6 /* AppDelegate.m */,
+				E1A6FC7121A9934200960DE6 /* ViewController.h */,
+				E1A6FC7221A9934200960DE6 /* ViewController.m */,
+				E1A6FC7421A9934200960DE6 /* Main.storyboard */,
+				E1A6FC7721A9934400960DE6 /* Assets.xcassets */,
+				E1A6FC7921A9934400960DE6 /* LaunchScreen.storyboard */,
+				E1A6FC7C21A9934400960DE6 /* Info.plist */,
+				E1A6FC7D21A9934400960DE6 /* main.m */,
+			);
+			path = SKDownloadDemo;
+			sourceTree = "<group>";
+		};
+		E1A6FC8421A9935B00960DE6 /* NSData下载小文件 */ = {
+			isa = PBXGroup;
+			children = (
+				E1A6FC8521A9939800960DE6 /* NSDataDownloadSmallFileVC.h */,
+				E1A6FC8621A9939800960DE6 /* NSDataDownloadSmallFileVC.m */,
+				E1A6FC8721A9939800960DE6 /* NSDataDownloadSmallFileVC.xib */,
+			);
+			path = "NSData下载小文件";
+			sourceTree = "<group>";
+		};
+		E1A6FC8A21A99FA300960DE6 /* NSURLConnection下载小文件 */ = {
+			isa = PBXGroup;
+			children = (
+				E1A6FC8B21A99FD000960DE6 /* NSURLConnectionDownloadSmallFileVC.h */,
+				E1A6FC8C21A99FD000960DE6 /* NSURLConnectionDownloadSmallFileVC.m */,
+				E1A6FC8D21A99FD000960DE6 /* NSURLConnectionDownloadSmallFileVC.xib */,
+			);
+			path = "NSURLConnection下载小文件";
+			sourceTree = "<group>";
+		};
+		E1A6FC9021A9A1CB00960DE6 /* NSURLConnection下载大文件 */ = {
+			isa = PBXGroup;
+			children = (
+				E1A6FC9121A9A20100960DE6 /* NSURLConnectionDownloadBigFileVC.h */,
+				E1A6FC9221A9A20100960DE6 /* NSURLConnectionDownloadBigFileVC.m */,
+				E1A6FC9321A9A20100960DE6 /* NSURLConnectionDownloadBigFileVC.xib */,
+			);
+			path = "NSURLConnection下载大文件";
+			sourceTree = "<group>";
+		};
+		E1C6DF8621AC7BEF002C0FB5 /* AFNetworking下载文件 */ = {
+			isa = PBXGroup;
+			children = (
+				E1C6DF8721AC7C1E002C0FB5 /* AFNetworkingDownloadFileVC.h */,
+				E1C6DF8821AC7C1E002C0FB5 /* AFNetworkingDownloadFileVC.m */,
+				E1C6DF8921AC7C1E002C0FB5 /* AFNetworkingDownloadFileVC.xib */,
+			);
+			path = "AFNetworking下载文件";
+			sourceTree = "<group>";
+		};
+		E1C6DF8C21AC7CDF002C0FB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1C6DF8D21AC7CDF002C0FB5 /* AFNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1C6DF9021AC891C002C0FB5 /* AFNetworking断点下载（支持离线） */ = {
+			isa = PBXGroup;
+			children = (
+				E1C6DF9121AC894D002C0FB5 /* AFNetworkingOfflineFileDownloadFileVC.h */,
+				E1C6DF9221AC894D002C0FB5 /* AFNetworkingOfflineFileDownloadFileVC.m */,
+				E1C6DF9321AC894D002C0FB5 /* AFNetworkingOfflineFileDownloadFileVC.xib */,
+			);
+			path = "AFNetworking断点下载（支持离线）";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1A6FC6A21A9934200960DE6 /* SKDownloadDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A6FC8121A9934400960DE6 /* Build configuration list for PBXNativeTarget "SKDownloadDemo" */;
+			buildPhases = (
+				E1A6FC6721A9934200960DE6 /* Sources */,
+				E1A6FC6821A9934200960DE6 /* Frameworks */,
+				E1A6FC6921A9934200960DE6 /* Resources */,
+				E1C6DF8F21AC7D1A002C0FB5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKDownloadDemo;
+			productName = SKDownloadDemo;
+			productReference = E1A6FC6B21A9934200960DE6 /* SKDownloadDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1A6FC6321A9934200960DE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = sunke;
+				TargetAttributes = {
+					E1A6FC6A21A9934200960DE6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = E1A6FC6621A9934200960DE6 /* Build configuration list for PBXProject "SKDownloadDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1A6FC6221A9934200960DE6;
+			productRefGroup = E1A6FC6C21A9934200960DE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1A6FC6A21A9934200960DE6 /* SKDownloadDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1A6FC6921A9934200960DE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A6FC7B21A9934400960DE6 /* LaunchScreen.storyboard in Resources */,
+				E1C6DF9521AC894D002C0FB5 /* AFNetworkingOfflineFileDownloadFileVC.xib in Resources */,
+				E1383F3821AB1BD100875B9E /* NSURLSessionBreakpointDownloadVC.xib in Resources */,
+				E1383F3E21AB24FE00875B9E /* NSURLSessionOfflineBreakpointDownloadVC.xib in Resources */,
+				E1A6FC7821A9934400960DE6 /* Assets.xcassets in Resources */,
+				E1383F3221AB0B8D00875B9E /* NSURLSessionDelegateDownloadVC.xib in Resources */,
+				E1A6FC7621A9934200960DE6 /* Main.storyboard in Resources */,
+				E1A6FC8F21A99FD000960DE6 /* NSURLConnectionDownloadSmallFileVC.xib in Resources */,
+				E1C6DF8B21AC7C1E002C0FB5 /* AFNetworkingDownloadFileVC.xib in Resources */,
+				E1383F2C21AAEFDA00875B9E /* NSURLSessionBlockDownloadVC.xib in Resources */,
+				E1A6FC9521A9A20100960DE6 /* NSURLConnectionDownloadBigFileVC.xib in Resources */,
+				E1383F2621AAE38300875B9E /* NSURLConnectionBreakpointDownloadVC.xib in Resources */,
+				E1A6FC8921A9939800960DE6 /* NSDataDownloadSmallFileVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E1C6DF8F21AC7D1A002C0FB5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/AFNetworking.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/Carthage copy-frameworks\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1A6FC6721A9934200960DE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A6FC7321A9934200960DE6 /* ViewController.m in Sources */,
+				E1C6DF9421AC894D002C0FB5 /* AFNetworkingOfflineFileDownloadFileVC.m in Sources */,
+				E1383F2521AAE38300875B9E /* NSURLConnectionBreakpointDownloadVC.m in Sources */,
+				E1A6FC7E21A9934400960DE6 /* main.m in Sources */,
+				E1383F3D21AB24FE00875B9E /* NSURLSessionOfflineBreakpointDownloadVC.m in Sources */,
+				E1383F3721AB1BD100875B9E /* NSURLSessionBreakpointDownloadVC.m in Sources */,
+				E1A6FC7021A9934200960DE6 /* AppDelegate.m in Sources */,
+				E1383F2B21AAEFDA00875B9E /* NSURLSessionBlockDownloadVC.m in Sources */,
+				E1C6DF8A21AC7C1E002C0FB5 /* AFNetworkingDownloadFileVC.m in Sources */,
+				E1A6FC8821A9939800960DE6 /* NSDataDownloadSmallFileVC.m in Sources */,
+				E1383F3121AB0B8D00875B9E /* NSURLSessionDelegateDownloadVC.m in Sources */,
+				E1A6FC9421A9A20100960DE6 /* NSURLConnectionDownloadBigFileVC.m in Sources */,
+				E1A6FC8E21A99FD000960DE6 /* NSURLConnectionDownloadSmallFileVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1A6FC7421A9934200960DE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1A6FC7521A9934200960DE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1A6FC7921A9934400960DE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1A6FC7A21A9934400960DE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1A6FC7F21A9934400960DE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1A6FC8021A9934400960DE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1A6FC8221A9934400960DE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F8E7JE29H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = SKDownloadDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.sunke.SKDownloadDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1A6FC8321A9934400960DE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F8E7JE29H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = SKDownloadDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.sunke.SKDownloadDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1A6FC6621A9934200960DE6 /* Build configuration list for PBXProject "SKDownloadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A6FC7F21A9934400960DE6 /* Debug */,
+				E1A6FC8021A9934400960DE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A6FC8121A9934400960DE6 /* Build configuration list for PBXNativeTarget "SKDownloadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A6FC8221A9934400960DE6 /* Debug */,
+				E1A6FC8321A9934400960DE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1A6FC6321A9934200960DE6 /* Project object */;
+}

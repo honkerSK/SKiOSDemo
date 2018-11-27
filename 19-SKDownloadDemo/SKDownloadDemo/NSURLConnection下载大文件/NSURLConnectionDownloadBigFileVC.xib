@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NSURLConnectionDownloadBigFileVC">
+            <connections>
+                <outlet property="progressLabel" destination="0ef-me-Nyh" id="tTZ-Oj-23s"/>
+                <outlet property="progressView" destination="Wlg-pb-PQ2" id="OGP-ZF-eEU"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Wlg-pb-PQ2">
+                    <rect key="frame" x="10" y="148" width="355" height="2"/>
+                </progressView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="当前下载进度: 00.00%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ef-me-Nyh">
+                    <rect key="frame" x="101.5" y="222" width="172" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iWO-8F-Xe1">
+                    <rect key="frame" x="156.5" y="343" width="62" height="30"/>
+                    <state key="normal" title="开始下载"/>
+                    <connections>
+                        <action selector="downloadBtnClicked:" destination="-1" eventType="touchUpInside" id="vyh-Py-Wz0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Wlg-pb-PQ2" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="128" id="5KY-4K-0oQ"/>
+                <constraint firstItem="0ef-me-Nyh" firstAttribute="top" secondItem="Wlg-pb-PQ2" secondAttribute="bottom" constant="72" id="OnU-I1-OPo"/>
+                <constraint firstAttribute="trailing" secondItem="Wlg-pb-PQ2" secondAttribute="trailing" constant="10" id="RZv-R1-tb3"/>
+                <constraint firstItem="iWO-8F-Xe1" firstAttribute="top" secondItem="0ef-me-Nyh" secondAttribute="bottom" constant="100" id="ZvQ-Lw-Kze"/>
+                <constraint firstItem="Wlg-pb-PQ2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="dPl-kC-03f"/>
+                <constraint firstItem="0ef-me-Nyh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jdo-0c-bQD"/>
+                <constraint firstItem="iWO-8F-Xe1" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="moD-s8-kMP"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="53.600000000000001" y="48.125937031484263"/>
+        </view>
+    </objects>
+</document>
