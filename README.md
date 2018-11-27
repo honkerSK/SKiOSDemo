@@ -40,3 +40,6 @@ iOSDemo
 18-AppAJumpAppBDemo (app应用间相互跳转)
 
 19-SKDownloadDemo (iOS下载文件的4种方式和离线下载)
+
+20-GCD&NSOperationDemo (pthread&NSThreadDemo &GCD &NSOperation)
+
