@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="TtR-w6-jvs" customClass="SKMagicMoveCell">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="180"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pic2" translatesAutoresizingMaskIntoConstraints="NO" id="scg-i1-0xU">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="150" id="iK9-3w-RSw"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="测试测试" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgl-Nn-ckf">
+                        <rect key="frame" x="0.0" y="151" width="150" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="bgl-Nn-ckf" secondAttribute="bottom" id="6IG-lJ-80c"/>
+                <constraint firstItem="scg-i1-0xU" firstAttribute="leading" secondItem="TtR-w6-jvs" secondAttribute="leading" id="7sf-hK-E6F"/>
+                <constraint firstAttribute="trailing" secondItem="scg-i1-0xU" secondAttribute="trailing" id="ZVI-6V-Rr9"/>
+                <constraint firstItem="bgl-Nn-ckf" firstAttribute="top" secondItem="scg-i1-0xU" secondAttribute="bottom" constant="1" id="axi-4F-LCI"/>
+                <constraint firstItem="bgl-Nn-ckf" firstAttribute="leading" secondItem="TtR-w6-jvs" secondAttribute="leading" id="o5R-TW-4fP"/>
+                <constraint firstAttribute="trailing" secondItem="bgl-Nn-ckf" secondAttribute="trailing" id="uuQ-hw-rCY"/>
+                <constraint firstItem="scg-i1-0xU" firstAttribute="top" secondItem="TtR-w6-jvs" secondAttribute="top" id="vrj-Tb-EFk"/>
+            </constraints>
+            <size key="customSize" width="98" height="122"/>
+            <connections>
+                <outlet property="imagView" destination="scg-i1-0xU" id="2kn-8d-Urk"/>
+            </connections>
+            <point key="canvasLocation" x="429" y="311"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="pic2" width="2560" height="1920"/>
+    </resources>
+</document>
