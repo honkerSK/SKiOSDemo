@@ -12,7 +12,7 @@
 
 #import "SKInteractiveTransition.h"
 
-@interface SKPageCoverPushController ()
+@interface SKPageCoverPushController ()<UINavigationControllerDelegate>
 
 @property (nonatomic, assign) UINavigationControllerOperation operation;
 @property (nonatomic, strong) SKInteractiveTransition *interactiveTransitionPop;

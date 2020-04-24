@@ -214,7 +214,6 @@ static NSString *const SKBrandsSortHeadViewID = @"SKBrandsSortHeadView";
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     NSLog(@"点击了个第%zd分组第%zd几个Item",indexPath.section,indexPath.row);
     
-    
 }
 
 @end

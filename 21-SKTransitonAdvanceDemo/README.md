@@ -26,14 +26,14 @@
 UIViewController *toVC = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
 UIViewController *fromVC = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
 ```
-
 + 4.在调用animateTransition: 方法时候,对源控制器视图截图,
 使用方法 snapshotViewAfterScreenUpdates:
 snapshotViewAfterScreenUpdates可以对某个视图截图，我们采用对这个截图做动画代替直接对源控制器做动画，因为在手势过渡中直接使用vc1动画会和手势有冲突，如果不需要实现手势的话，就可以不是用截图视图
 
-+ 5. containerView概念: 
++ 5.containerView概念: 
 如果要对视图做转场动画，视图就必须要加入containerView中才能进行，可以理解containerView管理者所有做转场动画的视图
- + 6.使用UIView的动画延时方法,做动画
+
++ 6.使用UIView的动画延时方法,做动画
 
 ### 三.动画控制器需要遵守协议, 实现方法
 

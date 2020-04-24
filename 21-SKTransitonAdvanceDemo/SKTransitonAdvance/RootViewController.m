@@ -21,7 +21,7 @@
     [super viewDidLoad];
     
     self.title = @"自定义转场动画";
-    self.navigationController.view.layer.cornerRadius = 10;
+//    self.navigationController.view.layer.cornerRadius = 10;
     self.navigationController.view.layer.masksToBounds = YES;
     self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStyleDone target:nil action:nil];
 

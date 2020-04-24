@@ -45,7 +45,7 @@ static NSString * const reuseIdentifier = @"Cell";
 - (void)backToRoot{
     
     //一定要给导航控制器设置代理
-    self.navigationController.delegate = self;
+//    self.navigationController.delegate = self;
     [self.navigationController popViewControllerAnimated:true];
 }
 

@@ -15,7 +15,7 @@
 
 @end
 
-@interface SKPageCoverPushController : UIViewController <UINavigationControllerDelegate>
+@interface SKPageCoverPushController : UIViewController 
 
 @property (nonatomic, weak) id<SKPageCoverPushControllerDelegate> delegate;
 

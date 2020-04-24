@@ -6,6 +6,8 @@
 //  Copyright © 2016年 SK. All rights reserved.
 //
 
+// UIViewControllerTransitioningDelegate
+
 #import <UIKit/UIKit.h>
 
 @interface SKPresentOneController : UIViewController

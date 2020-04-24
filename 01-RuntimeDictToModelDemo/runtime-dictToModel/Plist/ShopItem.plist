@@ -14,13 +14,13 @@
 				<key>infoname</key>
 				<string>高亮黑</string>
 				<key>plusprice</key>
-				<integer>0</integer>
+				<integer>111</integer>
 			</dict>
 			<dict>
 				<key>infoname</key>
 				<string>金色</string>
 				<key>plusprice</key>
-				<integer>0</integer>
+				<integer>222</integer>
 			</dict>
 			<dict>
 				<key>infoname</key>
@@ -32,13 +32,13 @@
 				<key>infoname</key>
 				<string>磨砂黑</string>
 				<key>plusprice</key>
-				<integer>0</integer>
+				<integer>333</integer>
 			</dict>
 			<dict>
 				<key>infoname</key>
 				<string>玫瑰金</string>
 				<key>plusprice</key>
-				<integer>0</integer>
+				<integer>444</integer>
 			</dict>
 		</array>
 	</dict>

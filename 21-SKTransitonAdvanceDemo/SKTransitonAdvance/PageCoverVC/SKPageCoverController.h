@@ -6,6 +6,7 @@
 //  Copyright © 2016年 SK. All rights reserved.
 //
 
+// UIViewControllerInteractiveTransitioning
 #import <UIKit/UIKit.h>
 
 @interface SKPageCoverController : UIViewController

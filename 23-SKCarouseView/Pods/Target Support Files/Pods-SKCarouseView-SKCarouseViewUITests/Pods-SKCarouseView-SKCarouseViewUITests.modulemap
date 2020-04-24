@@ -1,0 +1,6 @@
+framework module Pods_SKCarouseView_SKCarouseViewUITests {
+  umbrella header "Pods-SKCarouseView-SKCarouseViewUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

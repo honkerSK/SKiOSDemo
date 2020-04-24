@@ -59,7 +59,7 @@
 //    self.interactivePopGestureRecognizer.delegate = self;
     
     //将当前导航控制器作为 手势的代理,控制手势什么时候触发
-    //注意:这步不能少.清空手势代理,回复滑动返回功能
+    //注意:这步不能少.清空手势代理, 回复滑动返回功能
     pan.delegate = self;
     
 }

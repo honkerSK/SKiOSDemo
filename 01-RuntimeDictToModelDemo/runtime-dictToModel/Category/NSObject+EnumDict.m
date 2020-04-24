@@ -106,7 +106,7 @@ const char *kSKPropertyListKey = "SKPropertyListKey";
     return model;
 }
 
-
+//获取对象属性数组
 + (NSArray *)sk_objcProperties {
     /* 获取关联对象 */
     NSArray *ptyList = objc_getAssociatedObject(self, kSKPropertyListKey);
