@@ -54,13 +54,11 @@
 
 
 #pragma mark - 轮播图代理
-- (NSInteger)countOfCellForCarouseView:(CarouseView *)carouseView
-{
+- (NSInteger)countOfCellForCarouseView:(CarouseView *)carouseView{
     return kvDataArray.count;
 }
 
-- (UIView *)carouselView:(CarouseView *)carouselView cellAtIndex:(NSInteger)index
-{
+- (UIView *)carouselView:(CarouseView *)carouselView cellAtIndex:(NSInteger)index{
     // 先用空白页测试
     //    UIView *imageView = [[UIView alloc] init];
     //    int R = (arc4random() % 256) ;
@@ -78,8 +76,7 @@
     return imageView;
 }
 
-- (void)carouseView:(CarouseView *)carouseView didSelectedAtIndex:(NSInteger)index
-{
+- (void)carouseView:(CarouseView *)carouseView didSelectedAtIndex:(NSInteger)index{
     UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"carouse1 msg"
                                                         message:kvDataArray[index]
                                                        delegate:nil
@@ -89,12 +86,10 @@
 }
 
 #pragma mark - 轮播图2设置
-- (void)setupCarouseViewPlus
-{
+- (void)setupCarouseViewPlus{
     // 图片数组，可以是其他的资源，设置到轮播图上就可以
     NSMutableArray *imagerray = [NSMutableArray array];
-    for (int i = 0; i < kvDataArray.count; i++)
-    {
+    for (int i = 0; i < kvDataArray.count; i++){
         // 先用空白页测试
         UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"%d.jpg", i + 1]];
         [imagerray addObject:image];

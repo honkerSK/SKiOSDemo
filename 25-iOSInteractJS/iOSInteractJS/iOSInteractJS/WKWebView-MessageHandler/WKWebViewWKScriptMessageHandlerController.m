@@ -17,7 +17,7 @@
  PS：[userContentController addScriptMessageHandler:self name:@"jsToOc"]会引起循环引用问题。一般来说，在合适的时机removeScriptMessageHandler可以解决此问题。比如：在-viewWillAppear:方法中执行add操作，在-viewWillDisappear:方法中执行remove操作。如下
 
  二、iOS调用JS：
-OS调用JS方式与之前 一致，
+iOS调用JS方式与之前 一致，
  都是通过WKWebView的-evaluateJavaScript:completionHandler:方法来实现的。
  
  
