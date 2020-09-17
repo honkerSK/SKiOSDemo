@@ -61,5 +61,6 @@ iOSDemo
 
 ### 26-EventDemo 事件传递
 ### 27-IndexedTableView 自定义tableView索引(tableView缓存机制)
+### 28-SKAVPlayer AVPlayer封装,播放本地视频和远程视频
 
 
