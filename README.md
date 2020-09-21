@@ -59,8 +59,8 @@ iOSDemo
 + iOS与JS交互之WKWebView-WKScriptMessageHandler协议
 + iOS与JS交互之WKWebView-WKUIDelegate协议
 
-### 26-EventDemo 事件传递
-### 27-IndexedTableView 自定义tableView索引(tableView缓存机制)
-### 28-SKAVPlayer AVPlayer封装,播放本地视频和远程视频
-
+### 26-EventDemo (事件传递, 圆形区域内响应事件)
+### 27-IndexedTableView (tableView缓存机制, 自定义tableView索引 )
+### 28-SKAVPlayer (AVPlayer封装,播放本地视频和远程视频)
+### 29-PDFKitDemo(PDFKit demo)
 
